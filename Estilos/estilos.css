@@ -1,0 +1,142 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 90%;
+}
+
+header{
+    text-align: center;
+    display: block;
+    background-color:#220a2c;
+    padding: 2px 10px 4px 3px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+header p {
+    text-shadow: none;
+}
+
+.titulo {
+    text-align: left; 
+    padding: 15px 50px;
+    background-color: #220a2c;
+}
+
+.titulo h1 {
+    color: #ffffff;
+    text-align: center  ;
+}
+
+.titulo p {
+    color: #ffffff;
+    font-style:oblique;
+    text-align: center;
+}
+
+.Logo1{
+    float: left;
+    object-fit: fill;
+    border-radius: 50%;
+    width: 150px;
+    height: 115px;
+    padding-top: 1px;    
+    padding-left: 10px;
+
+}
+
+.Logo2{
+    float: right;
+    object-fit: fill;
+    border-radius: 50%;
+    width: 150px;
+    height: 115px;
+    padding-top: 1px;    
+    padding-left: 10px;
+}
+
+
+nav{
+    width: 98%;
+    color: black;
+    background: #ccc;
+}
+
+nav ul {
+    background-color: #90729a;
+    color: wheat;
+    list-style-type: none;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background-color: #3b2245;
+}
+
+.aside_menu
+{
+    display: inline-flex;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    width: 100px;
+}
+.aside_menu:hover{
+    background-color: #220a2c;
+}
+
+.articulo1{
+    color: aliceblue;
+    width: 80%;
+    background-color: #563b60;
+    float: left;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.articulo2{
+    color: aliceblue;
+    width: 80%;
+    background-color: #3b2245;
+    float: left;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 5%;
+    border: 5px solid #220a2c ;
+}
+
+aside{
+    float: right;
+    border: 3px solid #220a2c;
+    width: 15%;
+    padding: 4px;
+}
+
+footer {
+    position: relative;
+    margin-top: 50px;
+    height: 30px;
+    padding: 4px;
+    clear: both;
+    background-color: rgba(226, 43, 73, 0.395);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
